@@ -35,13 +35,13 @@ async def start_handler(message: Message):
         return
     user = message.from_user
     btn = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="📢 Join Channel", url="https://t.me/riyadfflikesgroup")]
+        [InlineKeyboardButton(text="📢 Join Group", url="https://t.me/riyadfflikesgroup")]
     ])
     await message.answer(
         f"👋 Hello {hbold(user.full_name)}!\n\n"
-        "📌 Welcome to FF Player Info Bot\n\n"
-        "👉 To get player info, use:\n<code>/get ind 8431487083</code>\n\n"
-        "⚠️ Only works in allowed groups.",
+        "📌 Welcome to Riyad FF Info Bot\n\n"
+        "👉 To get player info, use:\n<code>/get bd 2004537688</code>\n\n"
+        "⚠️ Only Works In Allowed Groups.",
         reply_markup=btn
     )
 
