@@ -1,2 +1,1 @@
-worker: sh start.sh
-Procfile
+web: bash start.sh
