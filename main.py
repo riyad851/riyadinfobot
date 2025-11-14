@@ -10,8 +10,8 @@ from datetime import datetime
 import aiohttp
 
 # ✅ Bot Token and Config
-BOT_TOKEN = "8194034175:AAGj9dhBRBgsH8JI3bPULtp-2g6IzKxat8Q"
-OWNER_ID = 6871652662
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+OWNER_ID = int(os.getenv("OWNER_ID"))
 ALLOWED_GROUPS = {-1002720090873}  # ✅ Add more using /allow
 
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
