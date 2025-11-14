@@ -147,7 +147,7 @@ async def get_player_info(message: Message):
 🎮 Level: {b.get('level','N/A')}
 💖 Likes: {b.get('liked','N/A')}
 🎖️ Title ID: {b.get('title','N/A')}
-💎 EXP: {b.get('exp',0):,}
+📈 EXP: {b.get('exp',0):,}
 ☢ Account Type: {b.get('accountType','N/A')}
 📌 Release: {b.get('releaseVersion','N/A')}
 🟢 Show BR Rank: {b.get('showBrRank','N/A')}
